@@ -21,7 +21,6 @@ const StreamDelete = (props) => {
 
   useEffect(() => {
     // Your code here
-    console.dir("INSIDE USE EFFECT" + props);
     props.fetchStream(props.match.params.id);
   }, []);
 

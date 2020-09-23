@@ -59,11 +59,18 @@ import { signIn, signOut } from "../actions";
 
 class GoogleAuth extends React.Component {
   componentDidMount() {
+    let gapiKey;
+
+    if (process.env.NODE_ENV !== "production") {
+      gapiKey = process.env.REACT_APP_GAPI_KEY;
+    } else {
+      gapiKey = process.env.GAPI_KEY;
+    }
+
     window.gapi.load("client:auth2", () => {
       window.gapi.client
         .init({
-          clientId:
-            "797401886567-9cumct9mrt3v2va409rasa7fa6fq02hh.apps.googleusercontent.com",
+          clientId: gapiKey,
           scope: "email",
         })
         .then(() => {

@@ -9,6 +9,7 @@ import history from "../history";
 import Header from "./Header";
 
 const App = () => {
+  console.log(process.env.REACT_APP_GAPI_KEY);
   return (
     <div className="ui container">
       <Router history={history}>
