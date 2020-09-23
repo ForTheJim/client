@@ -3,7 +3,7 @@
 - This app also makes use of Redux and Redux Thunk
 - Uses Google Authentication to log in/out users
 - Uses React Portals for modals (https://reactjs.org/docs/portals.html)
-- Uses 
+- Uses Axios as a REST API
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
