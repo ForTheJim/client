@@ -1,3 +1,11 @@
+## React Streamer
+- Sample React app that is able to Create Streams, Delete Streams, Edit Streams, and Fetch Streams. Your basic CRUD capable React App, but for Streams!
+- This app also makes use of Redux and Redux Thunk
+- Uses Google Authentication to log in/out users
+- Uses React Portals for modals (https://reactjs.org/docs/portals.html)
+- Uses 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
