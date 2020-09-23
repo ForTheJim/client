@@ -1,3 +1,7 @@
+## React Streamer
+- Sample React app that is able to Create Streams, Delete Streams, Edit Streams, and Fetch Streams. Your basic CRUD capable React App, but for Streams!
+- This app also makes use of Redux and Redux Thunk
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
